@@ -1404,7 +1404,7 @@
 		)
 		(uuid "f8b73e48-fb57-46fe-b655-f0bd07a56069")
 	)
-	(global_label "LCD_MOSI"
+	(global_label "SPI_MOSI"
 		(shape input)
 		(at 93.98 132.08 0)
 		(fields_autoplaced yes)
@@ -1416,7 +1416,7 @@
 		)
 		(uuid "59e6d68d-7a5c-4979-9f75-cece90cdda40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0971 132.08 0)
+			(at 105.6133 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1448,7 @@
 			)
 		)
 	)
-	(global_label "LCD_CLK"
+	(global_label "SPI_CLK"
 		(shape input)
 		(at 93.98 121.92 0)
 		(fields_autoplaced yes)
@@ -1460,7 +1460,7 @@
 		)
 		(uuid "766752c3-6d63-458b-8d04-faf911b788f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.069 121.92 0)
+			(at 104.5852 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
