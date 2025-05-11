@@ -627,6 +627,10 @@
     [
       "f6d58287-0bbb-4a4e-8690-1e10380d899b",
       "Power"
+    ],
+    [
+      "5ac89206-eb24-4d18-be0c-82afbc13f7da",
+      "NAND + SD"
     ]
   ],
   "text_variables": {}
