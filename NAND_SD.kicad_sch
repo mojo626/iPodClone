@@ -2,8 +2,13 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "90019451-ebfc-4fd1-9e7d-533caea7c370")
+	(uuid "38fe5f37-a972-4817-a4d9-f147484c586a")
 	(paper "A4")
+	(title_block
+		(title "iPodClone")
+		(rev "1.0")
+		(comment 1 "microSD for file system and NAND flash for boot")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

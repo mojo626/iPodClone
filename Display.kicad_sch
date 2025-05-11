@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "6898ab89-3a9a-4ce9-9fb8-2c0872513e88")
 	(paper "A4")
+	(title_block
+		(title "iPodClone")
+		(rev "1.0")
+		(comment 1 "22pin FPC connection to 1.54\" LCD display")
+	)
 	(lib_symbols
 		(symbol "easyeda2kicad:HC-FPC-05-09-22RLTAG"
 			(exclude_from_sim no)

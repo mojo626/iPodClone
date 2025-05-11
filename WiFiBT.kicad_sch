@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "bb7b8f8c-fbb4-4bd5-8985-edc866e5ec39")
 	(paper "A4")
+	(title_block
+		(title "iPodClone")
+		(rev "1.0")
+		(comment 1 "ESP32 module is used for WiFi and Bluetooth connections")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1778,6 +1783,18 @@
 		(uuid 547a83a1-2f9d-44d1-ae68-f734f8588204)
 	)
 	(rectangle
+		(start 20.32 26.67)
+		(end 57.785 50.8)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 75c8fa40-46ac-4333-a1e1-a33c46c4b5de)
+	)
+	(rectangle
 		(start 224.282 29.464)
 		(end 268.478 59.182)
 		(stroke
@@ -1798,6 +1815,16 @@
 			)
 		)
 		(uuid "47caa646-83a4-40da-b7da-0436c1151561")
+	)
+	(text "I2S Interface"
+		(exclude_from_sim no)
+		(at 26.416 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "587fd3b6-c8ab-4874-b36a-83f88975485e")
 	)
 	(text "JTAG\n"
 		(exclude_from_sim no)
@@ -2579,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 85.09) (xy 48.26 85.09)
+			(xy 46.99 40.64) (xy 39.37 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2599,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 80.01) (xy 48.26 80.01)
+			(xy 46.99 35.56) (xy 39.37 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2659,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 87.63) (xy 55.88 87.63)
+			(xy 39.37 43.18) (xy 46.99 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +2806,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 82.55) (xy 48.26 82.55)
+			(xy 46.99 38.1) (xy 39.37 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2818,7 +2845,7 @@
 		(uuid "1a5ecb07-0275-425b-8fb0-cdfb2e8ac034")
 	)
 	(label "IO5"
-		(at 55.88 80.01 0)
+		(at 46.99 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2848,7 +2875,7 @@
 		(uuid "49dc3637-d089-46aa-8e93-5ef4f0125ac1")
 	)
 	(label "IO23"
-		(at 55.88 85.09 0)
+		(at 46.99 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2888,7 +2915,7 @@
 		(uuid "7c34e4f1-f874-48b7-950e-b898185dd57c")
 	)
 	(label "IO0"
-		(at 55.88 87.63 0)
+		(at 46.99 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2918,7 +2945,7 @@
 		(uuid "a80d7003-ef66-4300-b579-dc23468f9c80")
 	)
 	(label "IO18"
-		(at 55.88 82.55 0)
+		(at 46.99 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2969,7 +2996,7 @@
 	)
 	(global_label "I2S_SCK"
 		(shape input)
-		(at 48.26 82.55 180)
+		(at 39.37 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2979,7 +3006,7 @@
 		)
 		(uuid "1a733261-2e62-478e-9150-4eba87abec4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.5339 82.55 0)
+			(at 28.6439 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +3018,7 @@
 	)
 	(global_label "I2S_WS"
 		(shape input)
-		(at 48.26 85.09 180)
+		(at 39.37 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3001,7 +3028,7 @@
 		)
 		(uuid "844b198e-8666-4612-80f4-cb01f0435e6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.6225 85.09 0)
+			(at 29.7325 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3040,7 @@
 	)
 	(global_label "I2S_PCMOUT"
 		(shape input)
-		(at 48.26 80.01 180)
+		(at 39.37 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3023,7 +3050,7 @@
 		)
 		(uuid "983a63b6-e09d-4882-990b-645a51369ddb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.6634 80.01 0)
+			(at 24.7734 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3062,7 @@
 	)
 	(global_label "I2S_MCLK"
 		(shape input)
-		(at 48.26 87.63 180)
+		(at 39.37 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3045,7 +3072,7 @@
 		)
 		(uuid "e0e3b890-ca8f-4a71-823c-328d5045f838")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.2639 87.63 0)
+			(at 27.3739 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
