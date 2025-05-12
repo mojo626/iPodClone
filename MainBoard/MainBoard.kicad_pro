@@ -449,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "iPodClone.kicad_pro",
+    "filename": "MainBoard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -488,7 +488,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "iPodClone.step",
+      "step": "MainBoard.step",
       "svg": "",
       "vrml": ""
     },

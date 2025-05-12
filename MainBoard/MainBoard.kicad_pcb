@@ -511,7 +511,7 @@
 		)
 		(path "/21609760-5dde-4a2f-a88f-2e8ef331b49e")
 		(sheetname "/")
-		(sheetfile "iPodClone.kicad_sch")
+		(sheetfile "MainBoard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.55 -0.88)
@@ -1526,7 +1526,7 @@
 		)
 		(path "/759385e3-64fc-40f5-9431-d75faff24956")
 		(sheetname "/")
-		(sheetfile "iPodClone.kicad_sch")
+		(sheetfile "MainBoard.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.26 0.25)
@@ -4121,7 +4121,7 @@
 		)
 		(path "/7a3910b0-e63f-40f3-b2b1-87e5febb0200")
 		(sheetname "/")
-		(sheetfile "iPodClone.kicad_sch")
+		(sheetfile "MainBoard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.43 4.22)
@@ -6101,7 +6101,7 @@
 		)
 		(path "/69db70f0-397d-467f-857f-1a841412c3fd")
 		(sheetname "/")
-		(sheetfile "iPodClone.kicad_sch")
+		(sheetfile "MainBoard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -6.25 -6.25)
