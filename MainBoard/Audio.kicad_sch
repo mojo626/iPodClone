@@ -2152,6 +2152,12 @@
 		(uuid "39a89a78-71e5-416a-a4b7-c86ecfb4d1c3")
 	)
 	(junction
+		(at 43.18 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "405b3d00-1e3d-4d5f-969f-da7e701a0585")
+	)
+	(junction
 		(at 156.21 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2344,6 +2350,16 @@
 			(type default)
 		)
 		(uuid "09210742-e0e1-44f7-a289-7fe1bc793d1e")
+	)
+	(wire
+		(pts
+			(xy 43.18 55.88) (xy 43.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a310446-3e16-4137-a2b0-82d531d1c8be")
 	)
 	(wire
 		(pts
@@ -2997,6 +3013,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 43.18) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ac1690-6956-4323-a6a9-fb9b09e360f9")
+	)
+	(wire
+		(pts
 			(xy 148.59 45.72) (xy 156.21 45.72)
 		)
 		(stroke
@@ -3004,6 +3030,16 @@
 			(type default)
 		)
 		(uuid "b81848b1-554b-404e-bbec-efa8d6389ecb")
+	)
+	(wire
+		(pts
+			(xy 43.18 62.23) (xy 43.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b969005b-7012-4904-b10e-255350386cd1")
 	)
 	(wire
 		(pts
@@ -3204,6 +3240,16 @@
 			(type default)
 		)
 		(uuid "f1c7172b-48ec-4190-9389-6ab013a193d9")
+	)
+	(wire
+		(pts
+			(xy 40.64 55.88) (xy 43.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31f70f6-76fa-4ee7-8163-08241cb2f849")
 	)
 	(wire
 		(pts
@@ -5339,6 +5385,72 @@
 			(project "iPodClone"
 				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/c5ab4cc3-063c-428e-a9fd-671869690836"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2ea5ac1-1570-4883-ad01-f1a8de0d23a0")
+		(property "Reference" "#PWR076"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb5bd245-dcc2-4eb1-a979-f85cc356d408")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/c5ab4cc3-063c-428e-a9fd-671869690836"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)

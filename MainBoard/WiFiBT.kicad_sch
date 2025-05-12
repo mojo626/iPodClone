@@ -10,6 +10,113 @@
 		(comment 1 "ESP32 module is used for WiFi and Bluetooth connections")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2484,6 +2591,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 62.23) (xy 36.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cac693-9b77-4d99-96c2-cc1c96ac11d1")
+	)
+	(wire
+		(pts
 			(xy 129.54 119.38) (xy 129.54 125.73)
 		)
 		(stroke
@@ -2872,6 +2989,16 @@
 		)
 		(uuid "ff149fff-591e-44d1-9478-bdfaed555bc6")
 	)
+	(wire
+		(pts
+			(xy 44.45 64.77) (xy 36.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff514adf-240d-4eaf-8cb0-80f031a9d0f6")
+	)
 	(label "TXD0"
 		(at 93.98 96.52 180)
 		(effects
@@ -2901,6 +3028,16 @@
 			(justify right bottom)
 		)
 		(uuid "49dc3637-d089-46aa-8e93-5ef4f0125ac1")
+	)
+	(label "RXD0"
+		(at 44.45 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "508b5192-c68d-498b-8ce8-e34665c6c6a0")
 	)
 	(label "IO23"
 		(at 46.99 40.64 0)
@@ -2942,6 +3079,16 @@
 		)
 		(uuid "a4cde88d-358f-4925-831a-0abe0ef10f4e")
 	)
+	(label "TXD0"
+		(at 44.45 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5e826ab-8260-4ec7-9072-d858c516e238")
+	)
 	(label "IO23"
 		(at 93.98 83.82 180)
 		(effects
@@ -2951,16 +3098,6 @@
 			(justify right bottom)
 		)
 		(uuid "a80d7003-ef66-4300-b579-dc23468f9c80")
-	)
-	(label "V3S-ESP32_RX"
-		(at 114.3 49.53 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9a0e5bf-9fd6-466c-89d3-bdcebf6d9f9e")
 	)
 	(label "IO18"
 		(at 46.99 38.1 0)
@@ -3002,15 +3139,27 @@
 		)
 		(uuid "d6b4d442-e20f-4012-b40b-90de485dd50d")
 	)
-	(label "V3S-ESP32_TX"
-		(at 116.84 49.53 90)
+	(global_label "V3S-ESP32_RX"
+		(shape input)
+		(at 114.3 49.53 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "ea83db15-7fa1-4b2a-82dd-eb101f583dd5")
+		(uuid "05c9537d-b423-4b1a-9c77-9b2605cf69ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 31.9702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "I2S_SCK"
 		(shape input)
@@ -3074,6 +3223,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V3S-ESP32_TX"
+		(shape input)
+		(at 116.84 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae62d8a7-1e92-4171-a9ad-2f89e2e33049")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 32.2726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3848,6 +4019,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 36.83 62.23 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0a5fe02-e75d-42fa-a58f-aaff3f260516")
+		(property "Reference" "TP3"
+			(at 31.75 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 31.75 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2628175-f149-4a63-9fb2-6429c9449a35")
+		)
+		(instances
+			(project ""
+				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/afa0f51f-4585-49c6-821b-c9484c1d19a7"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 59.69 180)
 		(unit 1)
@@ -4210,6 +4450,75 @@
 			(project ""
 				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/afa0f51f-4585-49c6-821b-c9484c1d19a7"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 36.83 64.77 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb31b4c2-0ceb-4b04-b37f-9bba9b6a3554")
+		(property "Reference" "TP4"
+			(at 31.75 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 31.75 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 36.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20afff02-c954-4cdd-b1b8-a6d127bf50b3")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/afa0f51f-4585-49c6-821b-c9484c1d19a7"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
