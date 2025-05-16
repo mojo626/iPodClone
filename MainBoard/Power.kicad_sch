@@ -3490,6 +3490,16 @@
 		)
 		(uuid c755fbb8-2bae-4e9f-969c-6b9595c6824f)
 	)
+	(text "FIGURE OUT THIS DIODE"
+		(exclude_from_sim no)
+		(at 332.232 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b2c6f1f-876e-4de7-a10f-be25b023fe6d")
+	)
 	(text "5V Boost Converter"
 		(exclude_from_sim no)
 		(at 283.464 22.86 0)
@@ -10510,7 +10520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 40.9448 73.66 0)
 			(effects
 				(font
