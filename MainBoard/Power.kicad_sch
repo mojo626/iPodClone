@@ -4742,16 +4742,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 198.12) (xy 218.44 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe913ab-9dfe-4a0a-801f-9dc50f1d4a35")
-	)
-	(wire
-		(pts
 			(xy 223.52 175.26) (xy 215.9 175.26)
 		)
 		(stroke
@@ -5139,16 +5129,6 @@
 			(type default)
 		)
 		(uuid "446ece3f-2e9a-4629-9d8d-cdc263c23e1c")
-	)
-	(wire
-		(pts
-			(xy 218.44 209.55) (xy 218.44 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "484ade1f-4335-40e2-9c71-0eb1cf9ed741")
 	)
 	(wire
 		(pts
@@ -12599,75 +12579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 218.44 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87a385ae-c0d4-4e93-a22a-f209d223f04d")
-		(property "Reference" "C74"
-			(at 219.71 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 219.71 208.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 219.4052 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 218.44 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05ce6a65-6c93-4a61-9156-772bf438150d")
-		)
-		(pin "2"
-			(uuid "1331634f-6187-441e-9075-1c53a61a292e")
-		)
-		(instances
-			(project "MainBoard"
-				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/f6d58287-0bbb-4a4e-8690-1e10380d899b"
-					(reference "C74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V2")
 		(at 283.21 110.49 270)
 		(unit 1)
@@ -12795,72 +12706,6 @@
 			(project ""
 				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/f6d58287-0bbb-4a4e-8690-1e10380d899b"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V2")
-		(at 218.44 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c6ddabe-0130-4f5f-b13f-f6759d9db586")
-		(property "Reference" "#PWR0152"
-			(at 218.44 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "HPVCC"
-			(at 218.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V2\""
-			(at 218.44 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d864589-0631-4b87-b5e8-198238517ee4")
-		)
-		(instances
-			(project "MainBoard"
-				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/f6d58287-0bbb-4a4e-8690-1e10380d899b"
-					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -15190,72 +15035,6 @@
 			(project "MainBoard"
 				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/f6d58287-0bbb-4a4e-8690-1e10380d899b"
 					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 218.44 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8c4f2ce-5ea5-448b-aa7c-fd3e8434c181")
-		(property "Reference" "#PWR017"
-			(at 218.44 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a11e5069-0fea-44e9-83cb-2b1e6982331a")
-		)
-		(instances
-			(project "MainBoard"
-				(path "/8a2ca4d7-9471-417b-a346-3246fc9a2f27/f6d58287-0bbb-4a4e-8690-1e10380d899b"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
